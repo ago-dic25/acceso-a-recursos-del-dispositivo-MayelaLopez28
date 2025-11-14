@@ -1,42 +1,39 @@
 {
   "expo": {
-    "name": "myApp",
-    "slug": "myApp",
+    "name": "acceso-recursos-dispositivo",
+    "slug": "acceso-recursos-dispositivo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/This is the skin of a killer Bella.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0c0a14"
     },
     "ios": {
-      "supportsTablet": true,
-      "infoPlist": {
-        "NSCameraUsageDescription": "Esta app necesita acceso a tu cámara para tomar fotos.",
-        "NSPhotoLibraryUsageDescription": "Esta app necesita acceso a tu galería para guardar fotos."
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0c0a14"
       },
       "edgeToEdgeEnabled": true,
-      "permissions": [
-        "android.permission.CAMERA",
-        "android.permission.READ_EXTERNAL_STORAGE",
-        "android.permission.WRITE_EXTERNAL_STORAGE"
-      ]
+      "package": "com.ederesquivel.accesorecursosdispositivo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "extra": {
+      "eas": {
+        "projectId": "65b72f6d-ce99-4804-beca-65ab644354f0"
+      }
+    },
     "plugins": [
-      "expo-camera",
-      "expo-media-library"
+        "expo-camera",
+        "expo-media-library"
     ]
   }
 }
